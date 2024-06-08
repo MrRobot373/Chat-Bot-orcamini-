@@ -1,8 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chat Bot based on ORCA Mini 7B
+
+This repository contains a chat bot application based on the ORCA Mini 7B large language model (LLM). The ORCA Mini 7B model  is deployed locally and can be downloaded from Hugging Face. The web application is developed using Next.js, offering a dynamic UI and UX.
+[To utilize the ORCA Mini 7B model, download it from [Hugging Face](https://huggingface.co/)]
+
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/chatbot-orca-mini-7b.git
+    cd chatbot-orca-mini-7b
+    ```
+
+2. Install the dependencies:
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    # or
+    bun install
+    ```
+
+### Running the Development Server
+
+To start the development server, run one of the following commands:
 
 ```bash
 npm run dev
@@ -17,20 +53,3 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
